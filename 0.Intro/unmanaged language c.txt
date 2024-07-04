@@ -1,0 +1,12 @@
+1. Learning the C language helps you better understand computer science concepts such as:
+    a. Memory mechanisms
+    b. CPU mechanisms
+    c.. How computers work
+
+2. C is one of the closest languages to hardware:
+    a. It is often used for embedded systems.
+
+3. C allows the use of pointers:
+    Java and C# use pointers in objects
+
+4.  C language provides a great opportunity to understand the concept of 'indirection'.
