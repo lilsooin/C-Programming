@@ -1,46 +1,34 @@
+
+main(void) function
+
 ```C
-#include <stdio.h>
-/* program entry point */
 int main(void)
 {
-    printf("Hello Suin!\n");
     return 0;
 }
 ```
+- main() function(not void in parenthesis) doesn't mean it doesn't have parameters 
+- It means getting parameters but don't know how many paramters are and what data types are
+- Shoul use void when there is no parameter!
 
-### #include 
--  similar to C# using, Java: import
-- To allow the use of functions or variables implemented in other files
-- `#include`  is one of the preprocessor directives.
--  The preprocessor performs tasks before compilation, such as copying and pasting text.
-
-### #include <>
+main(void) function: (void) example
 ```C
-#include <stdio.h>
-```
-- stdio.h is file in the disk
+int sum(void); /* function declaration: no parameter */
+int sum();     /* function declaration: there are parameters, don't know yet */
 
-### #include mechanism
-1.  open header file(*.h) such as **stdio.h** and copy the contents
-2. Replace the part written as `#include <stdio.h>` with the content copied.
-```C
-/* stdio.h codes */
-/* functions */
-int main(void)
+int sum(void)  /* function definition: no parameter */
 {
-    printf("Hello Suin!\n");
-    return 0;
+  /* code */
 }
-```
 
-### #include usage
-```C
-#include <stdio.h> /* compile */
-#include 'stdio.h' /* compile error */
-#include "stdio.h" /* compile but not recommend */
-```
+int sum()      /* function definition: no parameter */
+{
+  /* code */
+}
 
-### <stdio.h>
-- One of the C standard library(libc)
-- Standard Iput and Output in libc
-- ex. printf(), scanf(), fopen(), fclose()
+int sum(const int num1, const int num2) /* function definition: 2 parameters */
+{
+  /* code */
+}
+
+```
