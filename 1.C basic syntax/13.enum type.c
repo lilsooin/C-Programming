@@ -14,7 +14,7 @@ enum role {
     ROLE_JUNGLE,
     ROLE_BOTTOM,
     ROLE_SUPPORTER,
-}
+};
 
 int main(void)
 {
