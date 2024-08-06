@@ -11,7 +11,7 @@ int main(void)
     }
     average /= i;   
 
-    printf("Avreage: %d\n", average);
+    printf("Average: %d\n", average);
 
     return 0;
 }
